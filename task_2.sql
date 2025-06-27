@@ -28,7 +28,7 @@ order_date DATE,
 FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 
-CREATE TABLE IF NOT EXISTS Order_Dteails (
+CREATE TABLE IF NOT EXISTS Order_Details (
 orderdetailid INT AUTO_INCREMENT PRIMARY KEY,
 order_id INT,
 book_id INT,
